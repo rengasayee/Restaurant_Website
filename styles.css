@@ -1,0 +1,19 @@
+nav li{
+    display: inline-block;
+    text-decoration: none;
+}
+nav li a{
+    text-decoration: none;
+    margin: 0px 15px;
+}
+nav{
+   margin: 10px 0px; 
+}
+.pizza{
+    z-index: -1;
+}
+body{
+    background-image: url(img/pizza-transformed.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 1800%;
+}
