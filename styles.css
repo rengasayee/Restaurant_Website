@@ -1,19 +1,78 @@
+nav{
+    background-color: grey;
+    opacity: 0.8;
+    width: 100%;
+ }
 nav li{
     display: inline-block;
     text-decoration: none;
 }
 nav li a{
+    display: inline-block;
     text-decoration: none;
-    margin: 0px 15px;
-}
-nav{
-   margin: 10px 0px; 
-}
-.pizza{
-    z-index: -1;
+    margin: 10px 0px;
+    padding: 0px 15px;
+    color: black;
+    font-size: 1.2em;
 }
 body{
     background-image: url(img/pizza-transformed.jpeg);
     background-repeat: no-repeat;
-    background-size: 100% 1800%;
+    background-size: 100% 1600%;
+    margin: 0px;
 }
+nav li a:hover{
+    color: black;
+    background-color: beige;
+    width: fit-content;
+}
+.home{
+    background-image: url(img/pizza-transformed.jpeg);
+    position: relative;
+}
+.home h1{
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    color: rgb(204, 192, 255);
+    transform: translate(-50%,250%); 
+    font-weight: bold; 
+    
+}
+.home h1 span{
+    display: inline-block;
+    position: relative;
+    left: 80px;
+    padding: 0px 0px 10px 0px;
+}
+.home .gotomenu{
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    color: rgb(204, 192, 255);
+    transform: translate(-50%,600%); 
+    font-weight: bold; 
+    background-color: black;
+    font-size: 1.2em;
+    padding: 15px;
+}
+.home .gotomenu:hover{
+    background-color: white;
+    color: black;
+}
+.time{
+    position: absolute;
+    /* top: 50%; */
+    left: 20px;
+    color: rgb(204, 192, 255);
+    transform: translate(0%, 2600%);
+    background-color: black;
+    font-size: 1.1em;
+}
+
+/* .menu{
+    color: white;
+    transform: translate(0%, 2600%);
+} */
