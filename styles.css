@@ -18,7 +18,7 @@ nav li a{
 body{
     background-image: url(img/pizza-transformed.jpeg);
     background-repeat: no-repeat;
-    background-size: 100% 1600%;
+    background-size: 100% 800%;
     margin: 0px;
 }
 nav li a:hover{
@@ -28,6 +28,7 @@ nav li a:hover{
 }
 .home{
     background-image: url(img/pizza-transformed.jpeg);
+    background-attachment: fixed;
     position: relative;
 }
 .home h1{
@@ -67,12 +68,38 @@ nav li a:hover{
     /* top: 50%; */
     left: 20px;
     color: rgb(204, 192, 255);
-    transform: translate(0%, 2600%);
+    transform: translate(0%, 4000%);
     background-color: black;
     font-size: 1.1em;
 }
 
-/* .menu{
+.menu{
+    background-color: black;
     color: white;
-    transform: translate(0%, 2600%);
-} */
+    position: relative;
+    top: 900px;
+}
+.menu h1{
+   text-align: center;
+   padding: 20px 20px 60px 20px;
+}
+.menu ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px;
+}
+.menu ul{
+    position: relative;
+    left: 50px;
+    width: 60%;
+    margin: auto;
+}
+.menu ul li button{
+    padding: 10px 100px 10px 100px;;
+    background-color: black;
+    color: white;
+}
+.menu ul li button:hover{
+    background-color: red;
+    font-size: 1.1em;
+}
