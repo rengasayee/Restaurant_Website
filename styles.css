@@ -1,3 +1,6 @@
+*{
+    letter-spacing: 1.2px;
+}
 nav{
     background-color: grey;
     opacity: 0.8;
@@ -20,7 +23,7 @@ nav li a{
 body{
     background-image: url(img/pizza-transformed.jpeg);
     background-repeat: no-repeat;
-    background-size: 100% 40%;
+    background-size: 100% 30%;
     margin: 0px;
 }
 nav li a:hover{
@@ -35,18 +38,23 @@ nav li a:hover{
 }
 .home h1{
     position: absolute;
-    width: 300px;
+    width: 200px;
     top: 50%;
     left: 50%;
     color: rgb(37, 14, 140);
-    transform: translate(-50%,250%); 
-    font-weight: bold; 
-    
+    transform: translate(-50%,270%); 
+    font-weight: bold;
 }
 .home h1 span{
     display: inline-block;
     position: relative;
-    left: 80px;
+    right: 150px;
+    padding: 0px 0px 10px 0px;
+}
+.home h1 .pizz{
+    display: inline-block;
+    position: relative;
+    left: 200px;
     padding: 0px 0px 10px 0px;
 }
 .home .gotomenu{
@@ -55,7 +63,7 @@ nav li a:hover{
     top: 50%;
     left: 50%;
     color: rgb(204, 192, 255);
-    transform: translate(-50%,600%); 
+    transform: translate(-50%,950%); 
     font-weight: bold; 
     background-color: black;
     font-size: 1.2em;
@@ -66,13 +74,15 @@ nav li a:hover{
     color: black;
 }
 .time{
+    display: inline-block;
     position: absolute;
     /* top: 50%; */
     left: 20px;
     color: rgb(204, 192, 255);
-    transform: translate(0%, 3500%);
+    transform: translate(0%, 1800%);
     background-color: black;
     font-size: 1.3em;
+    padding: 10px;
 }
 
 .menu{
@@ -210,4 +220,64 @@ nav li a:hover{
     height: 80%;
     transform: translate(-6%, -10%);
     vertical-align: top;
+}
+.contact{
+    position: relative;
+    top: 670px;
+    background-color: #607d8b;
+}
+.contact h1{
+    text-align: center;
+    color: white;
+}
+.contact p{
+    transform: translate(20%,0%);
+    width: 50%;
+    color: white;
+}
+.userform{
+    transform: translate(20%,0%);
+    width: 50%;
+    padding-bottom: 50px;
+}
+.userform input[type="text"],input[type="number"],input[type="date"]{
+    width: 1200px;
+    height: 50px;
+}
+.userform button{
+    width: 1200px;
+    height: 50px;
+}
+::placeholder{
+    font-size: 1.1em;
+}
+.contact{
+    font-size: 1.1em;
+}
+.contact h1{
+    padding: 20px 0px 40px 0px;
+}
+.contact p{
+    line-height: 1.6;
+    text-transform: uppercase;
+}
+.fyi{
+    display: inline-block;
+    background-color: black;
+    /* padding-right: 10px; */
+    font-size: 1.1em;
+}
+.reserve{
+    display: inline-block;
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: bold;
+}
+footer{
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 655px;
+    padding: 30px;
+    text-align: center;
 }

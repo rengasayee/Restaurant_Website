@@ -5,3 +5,5 @@ The image size keeps changing each time a button is clicked.
 Margin-top not getting applied to Margherita heading.
 
 Hovering over the links, background color not coming for full size.
+
+why padding didn't apply after fyi and reserve span tags.
