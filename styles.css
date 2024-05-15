@@ -18,7 +18,7 @@ nav li a{
 body{
     background-image: url(img/pizza-transformed.jpeg);
     background-repeat: no-repeat;
-    background-size: 100% 800%;
+    background-size: 100% 400%;
     margin: 0px;
 }
 nav li a:hover{
@@ -102,4 +102,46 @@ nav li a:hover{
 .menu ul li button:hover{
     background-color: red;
     font-size: 1.1em;
+}
+.pizza a{
+    color: white;
+    text-decoration: none;
+}
+.pizzaContent{
+    position: relative;
+    left: -6px;
+    width: 50.5%;
+    margin: auto;
+    color: black;
+    background-color: white;
+    text-transform: uppercase;
+}
+.hot{
+    background-color: #f44336;
+    color: white;
+    border-radius: 2px;
+    margin: 0px 10px;
+}
+.new{
+    background-color: #f44336;
+    color: white;
+    border-radius: 2px;
+    margin: 0px 10px;
+}
+.cost{
+    position: relative;
+    left: 700px;
+    bottom: 40px;
+    background-color: #616161;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 4px;
+    padding: 5px;
+}
+.pizzaContent h2{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.pizzaContent p{
+    margin-left: 10px;
 }
