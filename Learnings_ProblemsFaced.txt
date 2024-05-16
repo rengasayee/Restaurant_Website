@@ -1,0 +1,13 @@
+How to remove the gap between pizza, salads and starter buttons?
+
+The image size keeps changing each time a button is clicked.
+
+Margin-top not getting applied to Margherita heading.
+
+Hovering over the links, background color not coming for full size. - This was due to the fact that background color to anchor tag instead of li.
+
+why padding didn't apply after fyi and reserve span tags.
+
+Learnt about how to keep placeholder date data type in forms (onfocus is used).
+
+target = _blank makes redirect to new page in a new tab when a button is clicked.
